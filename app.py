@@ -60,4 +60,4 @@ def index():
     return render_template('index.html', image_path=result_image_path, pentagon_coords=pentagon_coords)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False,host='0.0.0.0')
